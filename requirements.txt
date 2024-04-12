@@ -1,0 +1,11 @@
+streamlit
+pandas
+numpy
+seaborn
+matplotlib
+datetime
+sklearn
+sklearn.model_selection
+sklearn.metrics
+sklearn.tree
+joblib
