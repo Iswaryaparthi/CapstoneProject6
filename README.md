@@ -7,7 +7,7 @@ The objective of this project is to develop a machine learning model and deploy 
 
 #### Technologies used:
 
-Data Collection, Data Preprocessing, EDA, Model Building, Model Deployment.
+Data Collection, Data Wrangling, Data Preprocessing, EDA, Model Building, Model Deployment.
 
 #### Import Libraries:
 
@@ -20,8 +20,19 @@ Data Collection, Data Preprocessing, EDA, Model Building, Model Deployment.
 #### Work flow of the Project:
 
 * Download the dataset from the link https://beta.data.gov.sg/collections/189/view
-* The datas are ranging from 1990 to 2020
-* 
+* Totally there are 5 datasets ranging from 1990 to 2020
+* Download the complete datasets, did data wrangling and append it to a one dataset
+* Data preprocessing steps includes fill null values, datatype conversion, outliers detection etc.,
+* Find skewness using KDE plot and default skew method
+* Created additional four features based on the datasets
+* Visualizations done for categorical and continuous variables
+* Visualizations like bar chart, count plot, density plot, box plot, line plot
+* Label encoding was used to encode categorical variables
+* Highly correlated features with target variables was calculated using correlation matrix and heat map
+* Split the dataset into train and test set for model building
+* Used Linear regression and Decision tree regression for model building
+* Coefficient of determination for Linear regression is 0.95 and that for Decisiontree regression is 0.99
+
 
 #### Streamlit web application:
 
