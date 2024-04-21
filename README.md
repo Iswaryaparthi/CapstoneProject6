@@ -32,10 +32,10 @@ Data Collection, Data Wrangling, Data Preprocessing, EDA, Model Building, Model 
 * Split the dataset into train and test set for model building
 * Used Linear regression and Decision tree regression for model building
 * Coefficient of determination for Linear regression is 0.95 and that for Decisiontree regression is 0.99
-
-
-#### Streamlit web application:
-
-#### Findings:
+* Decision Tree was used to build predictive modelling
+* Using pickling and joblib , pickle the model for further usage
+* Created a simple UI for the users to set the values for predicting resale flat price in Singapore
+* Price per square meter, Flat type, Floor area square meter are the few features highly impacting the resale price
+* Successfully deployed the predictive modelling in Render platform, to use this predictive modelling as a web application.
 
 ### Thank you All!
