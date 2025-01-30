@@ -1,4 +1,3 @@
-# CapstoneProject6
 ## Singapore Resale Flat Prices Predicting Model
 
 #### Introduction:
